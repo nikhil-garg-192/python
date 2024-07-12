@@ -1,0 +1,6 @@
+Name,Age,City,Salary,Education,New_column
+John,28,New York,50000,Bachelor's,JohnBachelor's
+Alice,35,San Francisco,80000,Master's,AliceMaster's
+Bob,30,Chicago,60000,Bachelor's,BobBachelor's
+Eve,25,Los Angeles,45000,High School,EveHigh School
+Michael,40,Boston,90000,PhD,MichaelPhD

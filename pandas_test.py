@@ -1,5 +1,8 @@
 import pandas as pd
+csize=10
+file1=pd.read_csv("E:/github/python/large_dataset_with_consistent_types.csv",chunksize=csize,delimiter=',')
 
-file1=pd.read_csv("C:/Users/shabd/Documents/notepad.txt")
+colList=['Name','Age']
 
-print(file1.head(20))
+for i in file1:
+  print(i[colList])
